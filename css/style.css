@@ -100,22 +100,45 @@ p {
 
 .conteiner {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
     width: 100%;
-
-
-    height: 800px;
+    height: 600px;
     background-color: beige;
-
-    
 }
 
+.info-box {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 50%;
+}
+    
 .image {
-    width: ;
+    width: 50%;
+    height: auto;
+    background-color: black;
 }
 
 .text-box {
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
+    width: 50%;
+    height: 100%;
+}
+
+.big-conteiner::after {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: beige;
+}
+
+.image2 {
+    width: 100%;
+    height: 500px;
+    background-color: black;
 }
